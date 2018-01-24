@@ -6,9 +6,10 @@ The idea is to utilise our website's database which we are creating to allow use
 The work which is required is to match our own player data with the FPL data and use the player's ID from FPL as a foreign key.
 
 #Sources:
+
 https://fantasy.premierleague.com/drf/bootstrap-static - All information
 https://fantasy.premierleague.com/drf/element-summary/176 - Player information - Mahrez as an example.
-https://fantasy.premierleague.com/drf/bootstrap-static/my-team/{teamId} - Allows a user to input their team ID
+https://fantasy.premierleague.com/drf/my-team/48049/{teamId} - Allows a user to input their team ID
 
 
 Base url: https://fantasy.premierleague.com/drf/
