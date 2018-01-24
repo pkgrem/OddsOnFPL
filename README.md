@@ -7,9 +7,9 @@ The work which is required is to match our own player data with the FPL data and
 
 #Sources:
 
-https://fantasy.premierleague.com/drf/bootstrap-static - All information
-https://fantasy.premierleague.com/drf/element-summary/176 - Player information - Mahrez as an example.
-https://fantasy.premierleague.com/drf/my-team/48049/{teamId} - Allows a user to input their team ID
+- https://fantasy.premierleague.com/drf/bootstrap-static - All information
+- https://fantasy.premierleague.com/drf/element-summary/176 - Player information - Mahrez as an example.
+- https://fantasy.premierleague.com/drf/my-team/48049/{teamId} - Allows a user to input their team ID
 
 
 Base url: https://fantasy.premierleague.com/drf/
