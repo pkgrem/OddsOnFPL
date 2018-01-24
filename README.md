@@ -15,22 +15,36 @@ https://fantasy.premierleague.com/drf/my-team/48049/{teamId} - Allows a user to 
 Base url: https://fantasy.premierleague.com/drf/
 
 Relative links:
-/bootstrap (more data if authenticated)
-/bootstrap-static
-/bootstrap-dynamic
+- /bootstrap (more data if authenticated)
+- /bootstrap-static
+- /bootstrap-dynamic
 
-/events
-/elements
-/element-types
-/fixtures
-/teams
-/region
-/transfers (requires auth)
-/entry/{entryId}
-/entries (doesn't work in pre-season?)
-/my-team/{teamId} (requires auth)
-/leagues-entered/{teamId} (requires auth)
-/leagues-classic/{leagueId} (must be a member)
-/leagues-classic-standings/{leagueId}
-/leagues-h2h/{leagueId} (must be a member)
-/leagues-h2h-standings/{leagueId}
+- /events
+
+- /elements
+
+- /element-types
+
+- /fixtures
+
+- /teams
+
+- /region
+
+- /transfers (requires auth)
+
+- /entry/{entryId}
+
+- /entries (doesn't work in pre-season?)
+
+- /my-team/{teamId} (requires auth)
+
+- /leagues-entered/{teamId} (requires auth)
+
+- /leagues-classic/{leagueId} (must be a member)
+
+- /leagues-classic-standings/{leagueId}
+
+- /leagues-h2h/{leagueId} (must be a member)
+
+- /leagues-h2h-standings/{leagueId}
