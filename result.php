@@ -35,6 +35,7 @@
         $team_id = $_POST['teamid'];
         $url = "https://fantasy.premierleague.com/drf/entry/".$team_id."/event/24/picks";
 
+
         //print_r($team_id); // tests to see if the team_id input works.
         //print_r($url); // prints the url to see if it parses correctly
 
