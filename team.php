@@ -46,9 +46,7 @@
     <form action="result.php" method="post">
       <div class="form-group">
       <p>
-        Your Team ID: <input type="number" name="teamid" id=
-        "number" value="Enter your Team ID" min="1" max=
-        "5917836" /><br />
+        Your Team ID: <input type="number" name="teamid" id="number" value="Enter your Team ID" min="1" max="5917836" required /><br />
       </p>
       <p>
         <input name="form" button type="submit" class="btn btn-default" value="Send it!" />
