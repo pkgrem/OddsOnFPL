@@ -33,7 +33,7 @@
     <?php
 
         $team_id = $_POST['teamid'];
-        $url = "https://fantasy.premierleague.com/drf/entry/".$team_id."/event/24/picks";
+        $url = "https://fantasy.premierleague.com/drf/entry/".$team_id."/event/27/picks";
 
 
         //print_r($team_id); // tests to see if the team_id input works.
@@ -51,6 +51,9 @@
         //print_r($data['picks']);
         //var_dump(json_decode($json, true));
         ?>
+<?php
+$data['entry_history']?> Team Points:</br></br>
+<!-- https://msdn.microsoft.com/en-us/library/dd440739.aspx -->
     <table id ="customers">
         <tr>
           <th>Player ID</td>
