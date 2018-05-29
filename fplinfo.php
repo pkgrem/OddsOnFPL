@@ -51,6 +51,7 @@ $data =  json_decode($json, true);
     <th>Percentage selected by</th>
     <th>Transfers In</th>
     <th>Transfers Out</th>
+    <th>Total Points</th>
     <th>Points Per Game</th>
     <th>Minutes</th>
     <th>Goals Scored</th>
@@ -90,6 +91,7 @@ foreach($data['elements'] as $key=>$item)
         <td><?PHP echo $item['selected_by_percent']; ?></td>
         <td><?PHP echo $item['transfers_in']; ?></td>
         <td><?PHP echo $item['transfers_out']; ?></td>
+        <td><?PHP echo $item['total_points']; ?></td>
         <td><?PHP echo $item['points_per_game']; ?></td>
         <td><?PHP echo $item['minutes']; ?></td>
         <td><?PHP echo $item['goals_scored']; ?></td>
