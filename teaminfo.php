@@ -33,7 +33,7 @@
     <?php
 
         $team_id = $_POST['teamid'];
-        $url = "https://fantasy.premierleague.com/drf/teams/";
+        $url = "https://fantasy.premierleague.com/api/teams/";
 
 
         //print_r($team_id); // tests to see if the team_id input works.
